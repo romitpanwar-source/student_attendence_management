@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Attendance Management System</title>
+    <link rel="stylesheet" href="attendence.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Smart Attendance Management System</h1>
+
+    <table id="attendanceTable">
+        <thead>
+            <tr>
+                <th>Roll No</th>
+                <th>Student Name</th>
+                <th>Present</th>
+                <th>Absent</th>
+                <th>Total Classes</th>
+                <th>Attendance %</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows added by JavaScript -->
+        </tbody>
+    </table>
+
+    <button onclick="generateReport()">Generate Monthly Report</button>
+
+    <div id="report"></div>
+</div>
+
+<script src="attendence.js"></script>
+</body>
+</html>
